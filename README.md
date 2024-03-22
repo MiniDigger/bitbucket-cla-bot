@@ -2,6 +2,11 @@
 
 Small bot that listens for pull request events on Bitbucket and checks if the PR author has signed the CLA.
 
+## Building
+
+1. install deps via `pnpm install`
+2. build the project via `pnpm run build`
+
 ## Setup
 
 1. Create a webhook on your Bitbucket repo
